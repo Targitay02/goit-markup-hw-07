@@ -18,8 +18,10 @@ display: flex;
     margin-left: 93px;
 }
 
-.nav-item:not(:last-child) {
-    margin-right: 50px;
+.nav-item {
+    &:not(:last-child) {
+        margin-right: 50px;
+    }
 }
 
 .nav-link {
