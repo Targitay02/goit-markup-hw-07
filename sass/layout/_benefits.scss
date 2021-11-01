@@ -8,12 +8,12 @@
     margin-right: -30px;
 }
 
-.benefits-item {
+.benefits-list__item {
     flex-basis: calc(100% / 4 - 30px);
     margin-right: 30px;
 }
 
-.benefits-box {
+.benefits-list__box {
     display: flex;
     width: 270px;
     height: 120px;
@@ -24,7 +24,7 @@
     justify-content: center;
 }
 
-.benefits-title {
+.benefits-list__title {
     font-weight: bold;
     font-size: 14px;
     line-height: 1.15;
@@ -33,7 +33,7 @@
     margin-bottom: 10px;
 }
 
-.benefits-text {
+.benefits-list__text {
     font-size: 14px;
     line-height: 1.7;
 }

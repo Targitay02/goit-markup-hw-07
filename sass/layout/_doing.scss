@@ -1,4 +1,4 @@
-.doing-title {
+.doing__title {
     font-weight: bold;
     font-size: 36px;
     line-height: 1.15;
@@ -12,13 +12,13 @@
     margin-right: -30px;
 }
 
-.doing-item {
+.doing-list__item {
     position: relative;
     flex-basis: calc(100% / 3 - 30px);
     margin-right: 30px;
 }
 
-.doing-item-text {
+.doing-list__text {
     position: absolute;
 
     width: 100%;

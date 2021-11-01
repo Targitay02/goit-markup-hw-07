@@ -5,7 +5,7 @@
     padding-bottom: 60px;
 }
 
-.footer-container {
+.footer__container {
     display: flex;
 }
 
@@ -13,21 +13,21 @@
     color: #FFFFFF;
     }
 
+.addres-box {
+        margin-right: 70px;
+    }
+
 .address {
     margin-top: 20px;
 }
 
-.addres-box {
-    margin-right: 70px;
-}
-
-.address-item {
+.address-list__item {
     &:not(:last-child) {
         margin-bottom: 9px;
     }
 }
 
-.map-link {
+.address-list__map-link {
     font-size: 14px;
     line-height: 1.7;
     color: var(--header-background-color);
@@ -39,7 +39,7 @@
     }
 }
 
-.address-link {
+.address-list__link {
     font-size: 14px;
     line-height: 1.7;
     color: var(--footer-address-color);
@@ -57,7 +57,7 @@
     fill: var(--primary-title-color);
 }
 
-.join-title {
+.join__title {
     font-weight: bold;
     font-size: 14px;
     line-height: 1.15;
@@ -71,13 +71,13 @@
     justify-content: center;
 }
 
-.join-item {
+.join-list__item {
     &:not(:last-child) {
         margin-right: 10px;
     }
 }
 
-.join-link {
+.join-list__link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -94,11 +94,11 @@
     }
 }
 
-.join-icon {
+.join-list__icon {
     fill: var(--header-background-color);
 }
    
-.subscribe {
+.subscribe-form {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
@@ -108,13 +108,13 @@
     height: 86px;
 }
 
-.subscribe-email {
+.subscribe-form__box {
     display: flex;
     flex-direction: column;
     width: 100%;
 }
 
-.subscribe-email label {
+.subscribe-form__label {
     font-weight: bold;
     font-size: 14px;
     line-height: 1.15;
@@ -123,7 +123,7 @@
     margin-bottom: 20px;
 }
 
-.subscribe-email input {
+.subscribe-form__input {
     margin: 0;
     height: 50px;
     padding: 15px 16px;
@@ -143,7 +143,7 @@
     }
 }
 
-.subscribe-button {
+.subscribe-form__button {
     display: flex;
     align-items: center;
     width: 200px;
@@ -163,6 +163,6 @@
     cursor: pointer;
 }
 
-.subscribe-icon {
+.subscribe-form__icon {
     margin-left: 10px;
 }

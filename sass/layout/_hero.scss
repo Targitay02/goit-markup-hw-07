@@ -9,7 +9,7 @@
     background-size: cover;
 }
 
-.hero-title {
+.hero__title {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.35;
@@ -22,23 +22,4 @@
     margin-bottom: 30px;
 }
 
-.hero-button {
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 1.9;
-
-    display: flex;
-    letter-spacing: 0.06em;
-
-    background: #2196F3;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-width: 0;
-    border-radius: 4px;
-    margin: 0 auto;
-    padding: 10px 32px;
-
-    color: var(--header-background-color);
-
-    cursor: pointer;
-}
 
